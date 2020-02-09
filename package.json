@@ -1,0 +1,16 @@
+{
+  "name": "tailwindcss-clones",
+  "version": "1.0.0",
+  "description": "Multiple websites remade with Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "postcss public/css/style.css -o public/css/dist.css"
+  },
+  "author": "Zach Weinberg",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^9.7.4",
+    "postcss-cli": "^7.1.0",
+    "tailwindcss": "^1.2.0"
+  }
+}
